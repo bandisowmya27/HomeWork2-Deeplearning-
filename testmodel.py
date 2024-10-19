@@ -1,7 +1,7 @@
 import sys
 import torch
 import json
-from model_train import test_data, test, MODELS, EncoderRNNLayer, DecoderRNNLayer, attention
+from testtrain import test_data, test, MODELS, EncoderRNNLayer, DecoderRNNLayer, attention
 from torch.utils.data import DataLoader
 from bleu_eval import BLEU
 import pickle
